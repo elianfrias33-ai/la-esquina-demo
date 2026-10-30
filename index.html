@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Esquina del Sándwich — Restaurante & Pizzería en Bonao</title>
+  <meta name="description" content="Restaurante y Pizzería en Bonao, Monseñor Nouel. Sándwiches, pizzas, hamburguesas y más. Pide por delivery o visítanos." />
+  <meta name="keywords" content="restaurante Bonao, pizzería Bonao, delivery Bonao, comida Bonao, sandwich Bonao, hamburguesas Bonao, Hotel Gold Premium" />
+  <meta property="og:title" content="La Esquina del Sándwich — Restaurante & Pizzería en Bonao" />
+  <meta property="og:description" content="El mejor sabor de Bonao. Sándwiches, pizzas, hamburguesas y más. Delivery disponible." />
+  <meta property="og:type" content="restaurant" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <div class="logo-badge">
+          <svg class="logo-bread" viewBox="0 0 40 28" width="32" height="22" fill="none">
+            <path d="M4 20c0-8 7-16 16-16s16 8 16 16" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <ellipse cx="20" cy="21" rx="18" ry="6" fill="var(--accent)"/>
+            <ellipse cx="20" cy="20" rx="16" ry="4.5" fill="var(--accent-light)"/>
+            <path d="M14 13c-1-3 0-6 1-8M20 11c0-3.5 0-6.5 0-9M26 13c1-3 0-6-1-8" stroke="var(--accent-light)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+          </svg>
+        </div>
+        <span class="logo-text">La Esquina</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#hours">Horario</a></li>
+        <li><a href="#location">Ubicación</a></li>
+        <li><a href="#contact" class="nav-cta">Pedir Ahora</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge anim-fade-up" data-delay="0">
+        <span>RESTAURANTE & PIZZERÍA EN BONAO</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="anim-fade-up" data-delay="1">La Esquina</span>
+        <span class="anim-fade-up title-accent" data-delay="2">del Sándwich</span>
+      </h1>
+      <p class="hero-subtitle anim-fade-up" data-delay="3">Hamburguesas, pizzas, sándwiches y más — todo con el sazón que nos hace únicos en Bonao</p>
+      <div class="hero-cta-group anim-fade-up" data-delay="4">
+        <a href="#menu" class="btn btn-primary">Ver Menú</a>
+        <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.528-1.469A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.804-6.312-2.156l-.44-.344-2.914.945.968-2.86-.376-.462A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+          Pedir por WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator anim-fade-up" data-delay="5">
+      <span>Desliza</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images scroll-reveal">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=600&h=750&fit=crop" alt="Interior moderno del restaurante con iluminación ambiental" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=400&h=500&fit=crop" alt="Ambiente del restaurante con barra" loading="lazy" />
+          </div>
+        </div>
+        <div class="about-content scroll-reveal" data-delay="2">
+          <span class="section-label">CONÓCENOS</span>
+          <h2 class="section-title">El sabor que Bonao <em>prefiere</em></h2>
+          <p class="about-text">Ubicados dentro del Hotel Gold Premium, La Esquina del Sándwich es el punto de encuentro de Bonao para los amantes de la buena comida.</p>
+          <p class="about-text">Hamburguesas jugosas, pizzas con queso derretido, alitas crujientes y nuestros famosos sándwiches — todo preparado al momento con ingredientes frescos. Un ambiente moderno donde pasarla bien con familia y amigos.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="4490">0</span>
+              <span class="stat-label">En Instagram</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Años sirviendo</span>
+            </div>
+            <div class="stat">
+              <span class="stat-icon">Sabor</span>
+              <span class="stat-label">Sabor que nos une</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Divider -->
+  <section class="parallax-divider">
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content scroll-reveal">
+      <span class="section-label">DENTRO DEL</span>
+      <h2>Hotel Gold Premium</h2>
+      <p>Encuéntranos dentro del Hotel Gold Premium de Bonao. La combinación perfecta: el mejor hospedaje y la mejor comida de la ciudad.</p>
+      <a href="https://www.instagram.com/hotelgoldpremium/" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:24px;">Ver Hotel Gold Premium</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-label">NUESTRO MENÚ</span>
+        <h2 class="section-title">Lo que nos hace <em>famosos</em></h2>
+        <p class="section-subtitle">Los precios pueden variar. Consulta el menú actualizado por WhatsApp.</p>
+      </div>
+
+      <div class="menu-categories scroll-reveal" data-delay="1">
+        <button class="menu-tab active" data-category="hamburguesas">Hamburguesas</button>
+        <button class="menu-tab" data-category="pizzas">Pizzas</button>
+        <button class="menu-tab" data-category="sandwiches">Sándwiches</button>
+        <button class="menu-tab" data-category="acompanantes">Pica Pollo & Más</button>
+        <button class="menu-tab" data-category="bebidas">Bebidas</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- Hamburguesas (primero, son su fuerte) -->
+        <div class="menu-item scroll-reveal" data-category="hamburguesas">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop" alt="Hamburguesa clásica con queso" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Hamburguesa Clásica</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Carne jugosa, queso fundido, lechuga, tomate y nuestra salsa de la casa</p>
+            <span class="menu-badge">Popular</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="hamburguesas">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400&h=300&fit=crop" alt="Hamburguesa doble con tocino" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Hamburguesa Doble</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Doble carne, doble queso, tocino crujiente y cebolla caramelizada</p>
+            <span class="menu-badge best">La Favorita</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="hamburguesas">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=400&h=300&fit=crop" alt="Hamburguesa BBQ con papas" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Hamburguesa BBQ</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Carne premium con aros de cebolla, queso ahumado y salsa BBQ</p>
+          </div>
+        </div>
+
+        <!-- Pizzas -->
+        <div class="menu-item scroll-reveal" data-category="pizzas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop" alt="Pizza de pepperoni" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Pizza Pepperoni</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Pepperoni abundante, doble queso mozzarella fundido y orégano</p>
+            <span class="menu-badge">Popular</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="pizzas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop" alt="Pizza suprema con todo" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Pizza Suprema</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Pepperoni, jamón, pimiento, cebolla, champiñones y aceitunas con queso derretido</p>
+            <span class="menu-badge best">La Favorita</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="pizzas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop" alt="Pizza margarita" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Pizza de la Casa</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Nuestra receta especial con los mejores ingredientes del día</p>
+          </div>
+        </div>
+
+        <!-- Sándwiches -->
+        <div class="menu-item scroll-reveal" data-category="sandwiches" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1554433607-66b5efe9d304?w=400&h=300&fit=crop" alt="Sándwich clásico cubano" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Sándwich Clásico</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Pan caliente, jamón, queso derretido, lechuga, tomate y salsa especial</p>
+            <span class="menu-badge">El Original</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="sandwiches" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=400&h=300&fit=crop" alt="Sándwich de pollo" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Sándwich de Pollo</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Pechuga de pollo jugosa con vegetales frescos y mayonesa de ajo</p>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="sandwiches" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?w=400&h=300&fit=crop" alt="Sándwich especial de la casa" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Especial de la Casa</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>La receta que nos dio el nombre — carne, queso cheddar, tocino y salsa BBQ</p>
+            <span class="menu-badge best">La Favorita</span>
+          </div>
+        </div>
+
+        <!-- Pica Pollo & Más -->
+        <div class="menu-item scroll-reveal" data-category="acompanantes" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400&h=300&fit=crop" alt="Pica pollo crujiente" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Pica Pollo</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Pollo crujiente frito al estilo dominicano con tostones y ensalada</p>
+            <span class="menu-badge">Popular</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="acompanantes" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=300&fit=crop" alt="Alitas de pollo BBQ" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Alitas BBQ</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Alitas crujientes bañadas en salsa BBQ ahumada</p>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="acompanantes" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=400&h=300&fit=crop" alt="Papas fritas crujientes" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Papas Fritas & Tostones</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Papas crujientes o tostones de plátano verde con queso y salsas</p>
+          </div>
+        </div>
+
+        <!-- Bebidas -->
+        <div class="menu-item scroll-reveal" data-category="bebidas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&h=300&fit=crop" alt="Jugo natural tropical" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Jugos Naturales</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Chinola, limón, naranja, piña o morir soñando</p>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="bebidas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop" alt="Batidos cremosos" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Batidos</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Fresa, chocolate, vainilla o cookies & cream</p>
+            <span class="menu-badge">Popular</span>
+          </div>
+        </div>
+
+        <div class="menu-item scroll-reveal" data-category="bebidas" style="display:none">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=400&h=300&fit=crop" alt="Cervezas y refrescos" loading="lazy" />
+          </div>
+          <div class="menu-item-info">
+            <div class="menu-item-header">
+              <h3>Cervezas y Refrescos</h3>
+              <span class="menu-price">Consultar</span>
+            </div>
+            <p>Presidente, Bohemia, Coca-Cola, Sprite y más</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-cta scroll-reveal">
+        <p class="menu-cta-note">Pide el menú completo con precios actualizados</p>
+        <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.528-1.469A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.804-6.312-2.156l-.44-.344-2.914.945.968-2.86-.376-.462A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+          Pedir por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-label">GALERÍA</span>
+        <h2 class="section-title">Directo de nuestra <em>cocina</em></h2>
+        <p class="section-subtitle">Síguenos en Instagram para ver más: @laesquinadelsandwichrest</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large scroll-reveal">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop" alt="Hamburguesa con queso derretido y papas" loading="lazy" />
+          <div class="gallery-overlay"><span>Hamburguesas</span></div>
+        </div>
+        <div class="gallery-item scroll-reveal" data-delay="1">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&h=500&fit=crop" alt="Pizza con queso fundido" loading="lazy" />
+          <div class="gallery-overlay"><span>Pizzas</span></div>
+        </div>
+        <div class="gallery-item scroll-reveal" data-delay="2">
+          <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&h=500&fit=crop" alt="Pica pollo crujiente" loading="lazy" />
+          <div class="gallery-overlay"><span>Pica Pollo</span></div>
+        </div>
+        <div class="gallery-item scroll-reveal" data-delay="1">
+          <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=500&h=500&fit=crop" alt="Alitas BBQ con salsa" loading="lazy" />
+          <div class="gallery-overlay"><span>Alitas</span></div>
+        </div>
+        <div class="gallery-item gallery-large scroll-reveal" data-delay="2">
+          <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=800&h=600&fit=crop" alt="Combo de hamburguesa con papas fritas" loading="lazy" />
+          <div class="gallery-overlay"><span>Combos</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="section social-proof">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <span class="section-label">SÍGUENOS</span>
+        <h2 class="section-title">Más de 4,400 personas <em>nos siguen</em></h2>
+        <p class="section-subtitle">Mira lo que dicen en Instagram</p>
+      </div>
+      <div class="social-grid">
+        <div class="social-card scroll-reveal">
+          <div class="social-card-header">
+            <div class="social-avatar">🍔</div>
+            <div>
+              <strong>@laesquinadelsandwichrest</strong>
+              <span>Bonao, RD</span>
+            </div>
+          </div>
+          <p>"Esa hamburguesa está brutal, la mejor de Bonao sin competencia"</p>
+          <div class="social-footer">
+            <span class="social-likes">❤️ 127 likes</span>
+            <span>Instagram</span>
+          </div>
+        </div>
+        <div class="social-card scroll-reveal" data-delay="1">
+          <div class="social-card-header">
+            <div class="social-avatar">🍕</div>
+            <div>
+              <strong>@laesquinadelsandwichrest</strong>
+              <span>Bonao, RD</span>
+            </div>
+          </div>
+          <p>"Llegamos del hotel y esto fue lo mejor que nos pasó. La pizza con ese queso derretido... volveré"</p>
+          <div class="social-footer">
+            <span class="social-likes">❤️ 89 likes</span>
+            <span>Instagram</span>
+          </div>
+        </div>
+        <div class="social-card scroll-reveal" data-delay="2">
+          <div class="social-card-header">
+            <div class="social-avatar">🍗</div>
+            <div>
+              <strong>@laesquinadelsandwichrest</strong>
+              <span>Bonao, RD</span>
+            </div>
+          </div>
+          <p>"El pica pollo y las alitas son adictivas. El delivery llega rápido y todo caliente"</p>
+          <div class="social-footer">
+            <span class="social-likes">❤️ 203 likes</span>
+            <span>Instagram</span>
+          </div>
+        </div>
+      </div>
+      <div class="social-cta scroll-reveal">
+        <a href="https://www.instagram.com/laesquinadelsandwichrest/" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          Seguir en Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours & Location -->
+  <section class="section hours-location" id="hours">
+    <div class="container">
+      <div class="hl-grid">
+        <div class="hours-card scroll-reveal" id="location">
+          <span class="section-label">DÓNDE ESTAMOS</span>
+          <h2 class="section-title">Encuéntranos</h2>
+          <div class="location-info">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <strong>Dirección</strong>
+                <p>Hotel Gold Premium, Bonao<br>Monseñor Nouel, República Dominicana</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <strong>Teléfono</strong>
+                <p><a href="tel:8092963938">809-296-3938</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📱</div>
+              <div>
+                <strong>Instagram</strong>
+                <p><a href="https://www.instagram.com/laesquinadelsandwichrest/" target="_blank" rel="noopener">@laesquinadelsandwichrest</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30165.89!2d-70.41!3d18.94!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea5c0a7d7e5c3e1%3A0x1!2sBonao%2C+Dominican+Republic!5e0!3m2!1sen!2s!4v1"
+              width="100%" height="280" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación de La Esquina del Sándwich en Bonao"></iframe>
+          </div>
+        </div>
+        <div class="schedule-card scroll-reveal" data-delay="2">
+          <span class="section-label">HORARIO</span>
+          <h2 class="section-title">Visítanos</h2>
+          <p class="schedule-disclaimer">Horario aproximado. Confirma por WhatsApp o llamada.</p>
+          <div class="schedule-list">
+            <div class="schedule-row">
+              <span class="day">Lunes a Jueves</span>
+              <span class="hours-dots"></span>
+              <span class="time">11:00 AM — 10:00 PM</span>
+            </div>
+            <div class="schedule-row highlight">
+              <span class="day">Viernes y Sábado</span>
+              <span class="hours-dots"></span>
+              <span class="time">11:00 AM — 12:00 AM</span>
+            </div>
+            <div class="schedule-row">
+              <span class="day">Domingo</span>
+              <span class="hours-dots"></span>
+              <span class="time">12:00 PM — 10:00 PM</span>
+            </div>
+          </div>
+          <div class="schedule-note">
+            <p>🛵 Delivery disponible en todo Bonao</p>
+            <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" class="btn btn-primary btn-full">
+              Ordenar Delivery
+            </a>
+            <a href="tel:8092963938" class="btn btn-outline btn-full" style="margin-top:8px;">
+              Llamar: 809-296-3938
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section" id="contact">
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <div class="cta-content scroll-reveal">
+        <span class="section-label">¿TIENES HAMBRE?</span>
+        <h2 class="cta-title">Tu pedido a un <em>click</em></h2>
+        <p class="cta-subtitle">Escríbenos por WhatsApp y recibe tu comida favorita en la puerta de tu casa</p>
+        <div class="cta-buttons">
+          <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.528-1.469A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.804-6.312-2.156l-.44-.344-2.914.945.968-2.86-.376-.462A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+            Pedir por WhatsApp
+          </a>
+          <a href="tel:8092963938" class="btn btn-outline btn-lg">
+            Llamar: 809-296-3938
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-badge">
+            <svg class="logo-bread" viewBox="0 0 40 28" width="32" height="22" fill="none">
+              <path d="M4 20c0-8 7-16 16-16s16 8 16 16" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <ellipse cx="20" cy="21" rx="18" ry="6" fill="var(--accent)"/>
+              <ellipse cx="20" cy="20" rx="16" ry="4.5" fill="var(--accent-light)"/>
+            </svg>
+          </div>
+          <h3>La Esquina del Sándwich</h3>
+          <p>Hamburguesas, pizzas y buen ambiente en Bonao, Monseñor Nouel.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/laesquinadelsandwichrest/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.528-1.469A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.804-6.312-2.156l-.44-.344-2.914.945.968-2.86-.376-.462A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+            </a>
+            <a href="tel:8092963938" aria-label="Teléfono">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <a href="#about">Nosotros</a>
+          <a href="#menu">Menú</a>
+          <a href="#gallery">Galería</a>
+          <a href="#hours">Horario</a>
+          <a href="#location">Ubicación</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contacto</h4>
+          <a href="tel:8092963938">809-296-3938</a>
+          <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://www.instagram.com/laesquinadelsandwichrest/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.instagram.com/hotelgoldpremium/" target="_blank" rel="noopener">Hotel Gold Premium</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 La Esquina del Sándwich — Bonao, Monseñor Nouel, RD</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.link/4i9qbv" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chatear por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.612.616l4.528-1.469A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.804-6.312-2.156l-.44-.344-2.914.945.968-2.86-.376-.462A9.935 9.935 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+  </a>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
